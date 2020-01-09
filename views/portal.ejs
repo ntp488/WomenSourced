@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <% include ./components/head %>
+</head>
+
+<body>
+  <!-- Page Content -->
+  <div class="container h-100">
+    <canvas class="background"></canvas>
+    <div class="row d-flex justify-content-center h-75">
+      <!--Grid column-->
+      <div class="col-md-6 bg-light rounded shadowNew border my-auto p-3 text-center">
+        <h2>Women Sourced</h2>
+        <form action="/dashboard">
+          <label class="sr-only" for="emailControl">Username</label>
+          <div class="input-group input-group-sm p-2">
+            <div class="input-group-prepend w-25">
+              <div class="input-group-text w-100">Email</div>
+            </div>
+            <input type="email" class="form-control" id="emailControl" placeholder="youremail@domain.com">
+          </div>
+
+          <label class="sr-only" for="passwordControl">Password</label>
+          <div class="input-group input-group-sm p-2">
+            <div class="input-group-prepend w-25">
+              <div class="input-group-text w-100">Password</div>
+            </div>
+            <input type="password" class="form-control" id="passwordControl" placeholder="password">
+          </div>
+          <button type="submit" class="btn btn-primary btn-sm">Login</button>
+        </form>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+  <footer class="py-3 bg-dark" style="position: absolute; bottom: 0; width: 100%;">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Women Sourced 2019</p>
+    </div>
+  </footer>
+
+  <% include ./components/bootstrap %>
+  <% include ./components/particles %>
+  
+</body>
+
+</html>

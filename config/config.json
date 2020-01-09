@@ -1,0 +1,18 @@
+{
+    "databaseOptions": {
+        "user": "ntp488",
+        "password": "Steal123.",
+        "database": "svs_userinformation",
+        "host": "mysql.steelvalkyriestudios.com",
+        "connectionLimit": 5,
+        "connectTimeout": 3600000,
+        "acquireTimeout": 3600000,
+        "timeout": 3600000,
+        "session": {
+            "key": "SVS_Session_Key",
+            "secret": "SVS_Session_Secret",
+            "resave": false,
+            "saveUninitialized": false
+        }
+    }
+}
